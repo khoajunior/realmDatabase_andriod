@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         realm.commitTransaction();
     }
 
+
     private void wirteToDB(final String trim, final int parseInt) {
         realm.executeTransactionAsync(new Realm.Transaction() {
             @Override
